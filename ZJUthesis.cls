@@ -1,11 +1,11 @@
-%%
+﻿%%
 %% 这是浙江大学硕士博士毕业论文LaTeX模版
 %%
 
 %% 本模版是在88TeX版提供的数学系毕业论文模版2006年版基础上
 %% 由王东举于2011年9-10月间修改出第一版，欢迎提出修改意见，欢迎在此基础上自行修改尝试
 %% 邮箱：shuwei1204@163.com
-%% 
+%%
 %% 提供该模版的运行基础
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
 % 版本说明
@@ -276,13 +276,13 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
       \ZJU@label@serialnumber~
       \ZJUunderline[60pt]{\ZJU@value@serialnumber} \\
       % \vspace{3pt}
-      % \hspace{2em} \hfill \hspace{2em} 
+      % \hspace{2em} \hfill \hspace{2em}
       \ifx\ZJU@value@IsSecret\undefined \\
       \else
         \hspace{2em}
         %\hfill
         \ZJU@label@SecretLevel~
-        \ZJUunderline[60pt]{\ZJU@value@SecretLevel} 
+        \ZJUunderline[60pt]{\ZJU@value@SecretLevel}
       \fi
       \hfill
       \ZJU@label@PersonalID~
@@ -310,13 +310,13 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
         \includegraphics[width=30.8mm]{./CoverPagepic/QSY.eps}    \\
       \fi
     \end{center}
- 
+
       \vspace{2mm}
 
     \begin{center}
       % 论文题目部分内容，可以修改
       \begin{tabular}{rl}
-        {\songti\zihao{-2}\ZJU@label@title} 
+        {\songti\zihao{-2}\ZJU@label@title}
         &
         \songti\zihao{-2} \ZJUunderline[260pt]{\ZJU@value@title} \\[3mm]
         &
@@ -326,7 +326,7 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
         \else
           {\songti\zihao{-2}\ZJUunderline[260pt]{\ZJU@value@titletl}}
         \fi \\[4mm]
-        %{\songti\zihao{3}\ZJU@label@Etitle:} 
+        %{\songti\zihao{3}\ZJU@label@Etitle:}
         %&
         %{\zihao{-2}\ZJUunderline[260pt]{\ZJU@value@Etitle}}\\[3mm]
         %&
@@ -339,7 +339,7 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
       \end{tabular}
 
       % 这个距离可以修改
-      \vspace{15mm}  
+      \vspace{15mm}
 
       % 左右两边字体不同，定义两个宏AB来简化代码，这个功能用到了array宏包
       \newcolumntype{A}{>{\songti}l<{}}
@@ -385,7 +385,7 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
 	\begin{center}
 	  % 这个尺寸可以更改
       \vspace{10mm}
-	  
+	
       %% \ZJU@value@school \\  \zihao{-1}
       % 这个博士学位论文在def文件中已有，当然在tex文件中还可以更改
       \centerline{\songti \zihao{-1}{\ZJU@label@Ethesisu}}
@@ -399,12 +399,12 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
       \else
         \includegraphics[width=30.8mm]{./CoverPagepic/QSY.eps}    \\
       \fi
- 
+
       \vspace{20mm}
 
       % 论文题目部分内容，可以修改
       \begin{tabular}{rl}
-        {\fangsong\zihao{-2}\ZJU@label@Etitle:} 
+        {\fangsong\zihao{-2}\ZJU@label@Etitle:}
         &
         {\zihao{-2}\ZJUunderline[310pt]{\ZJU@value@Etitle}}\\[3mm]
         &
@@ -423,7 +423,7 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
         \fi\\[3mm]
       \end{tabular}
       % 这个距离可以修改
-      \vspace{30mm}  
+      \vspace{30mm}
       % 左右两边字体不同，定义两个宏AB来简化代码，这个功能用到了array宏包
       \newcolumntype{A}{>{\songti}l<{}}
       \newcolumntype{B}{>{\fangsong}l<{}}
@@ -503,11 +503,11 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
            \ZJUunderline[120pt]{} %\includegraphics[width=80pt,height=36pt]{./Signature/sign_ch_s.eps}}
       \fi
       {\bfseries\songti\zihao{3}\textcolor{white}{。}}\\
- 
-            
+
+
       % 插入空白
       \vspace{15mm}
-      
+
       % 评阅人信息
       \newcolumntype{A}{>{\songti\zihao{4}}r}
       \newcolumntype{B}{>{\songti\zihao{4}}c}
@@ -518,7 +518,7 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
         评阅人4 & \ZJUunderline[260pt]{\ZJU@value@reviewersD}\\[2.2mm]
         评阅人5 & \ZJUunderline[260pt]{\ZJU@value@reviewersE}\\
       \end{tabular}
-    
+
       % 加一段空白
       \vspace{10mm}
 
@@ -562,7 +562,7 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
   \cleardoublepage
   \thispagestyle{empty}
   {
-    \linespread{1.3} 
+    \linespread{1.3}
     \begin{center}
       % 英文论文题目
       {\bf\zihao{-2}\ZJUunderline[360pt]{\ZJU@value@englishtitle}\\
@@ -603,7 +603,7 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
       \ZJUunderline[120pt]{} \\ %\includegraphics[width=80pt,height=36pt]{./Signature/sign_en_s.eps}}\\
       \fi}
     \end{center}
-  
+
     % 加入一段空白
     \vspace{7mm}
 
@@ -612,11 +612,11 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
     %\newcolumntype{A}{>{\zihao{4}}r}
     %\newcolumntype{B}{>{\zihao{4}}c}
     \begin{tabular}{rc}
-      External Reviewers: & \ZJUunderline[260pt]{\ZJU@value@EreviewersA}\\[1.2mm]
-      & \ZJUunderline[260pt]{\ZJU@value@EreviewersB}\\[1.2mm]
-      & \ZJUunderline[260pt]{\ZJU@value@EreviewersC}\\[1.2mm]
-      & \ZJUunderline[260pt]{\ZJU@value@EreviewersD}\\[1.2mm]
-      & \ZJUunderline[260pt]{\ZJU@value@EreviewersE}\\
+     Thesis Reviewers 1: & \ZJUunderline[260pt]{\ZJU@value@EreviewersA}\\[1.2mm]
+     Reviewers 2: & \ZJUunderline[260pt]{\ZJU@value@EreviewersB}\\[1.2mm]
+     Reviewers 3: & \ZJUunderline[260pt]{\ZJU@value@EreviewersC}\\[1.2mm]
+     Reviewers 4: & \ZJUunderline[260pt]{\ZJU@value@EreviewersD}\\[1.2mm]
+     Reviewers 5: & \ZJUunderline[260pt]{\ZJU@value@EreviewersE}\\
     \end{tabular}
 
     % 加入一段空白
@@ -624,18 +624,35 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
 
     % 答辩委员会名单（英文）
     ~\\[1.2mm]
-    \hbox to 2.4em{}Examining Committee Chairperson:\\[1.2mm]
-    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@Echairman}\\[1.2mm]
-    \hbox to 2.4em{}Examining Committee Members:\\[1.2mm]
-    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@EcommissionerA}\\[1.2mm]
-    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@EcommissionerB}\\[1.2mm]
-    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@EcommissionerC}\\[1.2mm]
-    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@EcommissionerD}\\[1.2mm]
-    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@EcommissionerE}\\
+    %\hbox to 2.4em{} Committee Chairperson:\\[1.2mm]
+%    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@Echairman}\\[1.2mm]
+%    \hbox to 2.4em{} Committee Members 1:\\[1.2mm]
+%    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@EcommissionerA}\\[1.2mm]
+%    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@EcommissionerB}\\[1.2mm]
+%    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@EcommissionerC}\\[1.2mm]
+%    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@EcommissionerD}\\[1.2mm]
+%    \hbox to 11.4em{}\ZJUunderline[260pt]{\ZJU@value@EcommissionerE}\\
+  % \begin{tabular}{cc}
+%     Committee Chairperson: & \ZJUunderline[260pt]{\ZJU@value@EreviewersA}\\[1.2mm]
+%     Committeeman 1: & \ZJUunderline[260pt]{\ZJU@value@EreviewersB}\\[1.2mm]
+%     Committeeman 2: & \ZJUunderline[260pt]{\ZJU@value@EreviewersC}\\[1.2mm]
+%     Committeeman 3: & \ZJUunderline[260pt]{\ZJU@value@EreviewersD}\\[1.2mm]
+%     Committeeman 4: & \ZJUunderline[260pt]{\ZJU@value@EreviewersD}\\[1.2mm]
+%     Committeeman 5: & \ZJUunderline[260pt]{\ZJU@value@EreviewersE}\\
+%    \end{tabular}
+
+\begin{tabular}{cc}
+        Committee Chairperson: & \ZJUunderline[260pt]{\ZJU@value@chairman}\\[2.2mm]
+        Committeeman 1: & \ZJUunderline[260pt]{\ZJU@value@commissionerA}\\[2.2mm]
+        Committeeman 2: & \ZJUunderline[260pt]{\ZJU@value@commissionerB}\\[2.2mm]
+        Committeeman 3: & \ZJUunderline[260pt]{\ZJU@value@commissionerC}\\[2.2mm]
+        Committeeman 4: & \ZJUunderline[260pt]{\ZJU@value@commissionerD}\\[2.2mm]
+        Committeeman 5: & \ZJUunderline[260pt]{\ZJU@value@commissionerE}\\
+      \end{tabular}
 
     % 加一段空白
     \vfill
-    % 答辩日期  
+    % 答辩日期
     {\hfill Date of oral defence:\ZJUunderline[150pt]{\ZJU@value@defenddate}\hspace{3em}}
   }
 }
@@ -810,20 +827,20 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
 
   \renewcommand{\cftsecleader}{\cftdotfill{\cftdot}}
   \renewcommand{\cftsecdotsep}{\cftdotsep}
-  \renewcommand{\cftsecfont}{\songti\zihao{-4}}  
+  \renewcommand{\cftsecfont}{\songti\zihao{-4}}
   \renewcommand{\cftsecpagefont}{\rm\zihao{-4}}
 
   \renewcommand{\cftsubsecleader}{\cftdotfill{\cftdot}}
   \renewcommand{\cftsubsecdotsep}{\cftdotsep}
-  \renewcommand{\cftsubsecfont}{\songti\zihao{-4}}  
+  \renewcommand{\cftsubsecfont}{\songti\zihao{-4}}
   \renewcommand{\cftsubsecpagefont}{\rm\zihao{-4}}
-  
+
   \setlength{\cftbeforechapskip}{-2pt}
   \setlength{\cftbeforesecskip}{-2pt}
   \setlength{\cftbeforesubsecskip}{-2pt}
   \setlength{\cftsecindent}{1eM}
   \setlength{\cftsubsecindent}{2eM}
-  
+
   \setcounter{tocdepth}{2}
   \addtocontents{toc}{\cftpagenumbersoff{chapter}}
   \tableofcontents
