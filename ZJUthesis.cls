@@ -872,6 +872,7 @@ breakatwhitespace=false        % sets if automatic breaks should only happen at 
 \captionsetup[subfigure]{labelfont=normalfont,textfont=normalfont}
 
 % 表目录
+\usepackage{multirow}
 \renewcommand{\cfttabpresnum}{\tablename\enspace}
 \renewcommand{\cfttabaftersnum}{}
 \settowidth{\mylen}{\cfttabpresnum\cfttabaftersnum}
