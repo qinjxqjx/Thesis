@@ -175,7 +175,7 @@ ET^2_{new}=\sum_{i=1}^{n_s}\frac{P^{2(i)}_{T^2}(F|\textbf{x})}{\sum_{j=1}^{n_s}P
 ESPE_{new}=\sum_{i=1}^{n_s}\frac{P^{2(i)}_{SPE}(F|\textbf{x})}{\sum_{j=1}^{n_s}P^{(j)}_{SPE}(F|\textbf{x})}.
 \end{equation}
 此时，显著水平$\alpha$扮演了控制限的作用，当$ET^2_{new}\prec\alpha$和$ESPE_{new}\prec\alpha$时候，认为系统处于正常工况状态，当$ET^2_{new}\succ \alpha$ 或者$ESPE_{new}\succ\alpha$的时候，则认为系统有检测到故障。
-\section{过程监测策略}
+\subsection{过程监测策略}
 我们将上一节所介绍的方法称为EKECA，利用EKECA实现故障检测的具体流程可以分为离线建模和在线监测两部分，该算法的流程图如图\ref{flowchart}所示，而具体实现为：
 \begin{figure}[htb]
 \centering
