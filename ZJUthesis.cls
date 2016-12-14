@@ -224,7 +224,8 @@ includehead, includefoot]{geometry}
 \newtheorem{defin}{定义~}[chapter]
 \newtheorem{theo}{定理~}[chapter]
 \newtheorem{pro}{证明~}[chapter]
-
+%加粗希腊字母
+\usepackage{bm}
 % 插入 Matlab 代码设置
 \usepackage{listings}
 \lstset{ %
